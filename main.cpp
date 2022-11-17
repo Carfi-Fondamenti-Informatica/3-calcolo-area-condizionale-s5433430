@@ -8,11 +8,11 @@ int main() {
    cin >> opzione;
    
    switch (opzione) {
-      case 1: cout << (a * b/2) << endl;
+      case 1: cout <<a*b/2<< endl;
          break;
-      case 2: cout << (a * a) << endl;
+      case 2: cout <<a*a << endl;
          break;
-      case 3: cout << (a * b) << endl;
+      case 3: cout <<a*b<< endl;
          break;
       default: cout << "opzione non valida" << endl;
    }
